@@ -24,6 +24,9 @@ After the lab session, we were tasked to complete only the control unit for the 
 
 For the submission, here are the verilog files (.v) with their testbenches.
 
+Also, provided is the new architecture:
+![New architecture](./images/my_arch.png)
+
 ---
 
 ### Introduction to Lab Session
@@ -102,3 +105,5 @@ Point to be noted:
 ![Output-3](./images/op_arith.png)
 4. Data Transfer instructions:
 ![Output-4][./images/op_mov.png]5
+5. Branch Instructions:
+![Output-5][./images/op_branch.png]
