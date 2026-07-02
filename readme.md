@@ -104,6 +104,6 @@ Point to be noted:
 3. Output for arithmetic instructions:
 ![Output-3](./images/op_arith.png)
 4. Data Transfer instructions:
-![Output-4][./images/op_mov.png]5
+![Output-4](./images/op_mov.png)
 5. Branch Instructions:
-![Output-5][./images/op_branch.png]
+![Output-5](./images/op_branch.png)
