@@ -1,0 +1,37 @@
+$date
+	Fri Jun 26 11:09:21 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module inst_memory_tb $end
+$scope module uut $end
+$var wire 1 ! CLK $end
+$var wire 8 " PC [7:0] $end
+$var reg 8 # q [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx #
+b0 "
+0!
+$end
+#5000
+b0 #
+1!
+#10000
+0!
+b1 "
+#15000
+b1 #
+1!
+#20000
+0!

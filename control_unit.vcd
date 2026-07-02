@@ -1,0 +1,199 @@
+$date
+	Wed Jul  1 23:34:06 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module control_unit_tb $end
+$scope module cu $end
+$var wire 1 ! CLK $end
+$var wire 1 " carry_in $end
+$var wire 1 # zero_in $end
+$var wire 8 $ inst [7:0] $end
+$var parameter 2 % DECODE $end
+$var parameter 2 & EXECUTE $end
+$var parameter 2 ' FETCH $end
+$var parameter 2 ( FETCH_IMMEDIATE $end
+$var reg 3 ) ALUOP [2:0] $end
+$var reg 1 * DMUX_SEL $end
+$var reg 8 + IMMEDIATE [7:0] $end
+$var reg 1 , MUX1_SEL $end
+$var reg 1 - MUX2_SEL $end
+$var reg 8 . PC [7:0] $end
+$var reg 3 / READREG1 [2:0] $end
+$var reg 3 0 READREG2 [2:0] $end
+$var reg 1 1 WRITEENABLE $end
+$var reg 3 2 WRITEREG [2:0] $end
+$var reg 1 3 WRITE_STACK_ENABLE $end
+$var reg 1 4 call_enable $end
+$var reg 1 5 carry_flag $end
+$var reg 1 6 carry_use $end
+$var reg 1 7 immediate_flag $end
+$var reg 1 8 jmp_enable $end
+$var reg 8 9 stack_pointer [7:0] $end
+$var reg 8 : stack_value [7:0] $end
+$var reg 2 ; state [1:0] $end
+$var reg 1 < zero_flag $end
+$scope task branch_logic $end
+$var reg 1 = flag $end
+$var reg 1 > func $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module control_unit_tb $end
+$scope module mem $end
+$var wire 1 ! CLK $end
+$var wire 8 ? PC [7:0] $end
+$var wire 1 3 WRITE_STACK_ENABLE $end
+$var wire 8 @ inst [7:0] $end
+$var wire 8 A stack_pointer [7:0] $end
+$var wire 8 B stack_value [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 (
+b0 '
+b10 &
+b1 %
+$end
+#0
+$dumpvars
+bx B
+b11111111 A
+b11110000 @
+b0 ?
+x>
+x=
+x<
+b0 ;
+bx :
+b11111111 9
+08
+07
+06
+05
+04
+03
+bx 2
+01
+bx 0
+bx /
+b0 .
+x-
+x,
+bx +
+0*
+bx )
+b11110000 $
+z#
+z"
+0!
+$end
+#5000
+b1 ;
+1!
+#10000
+0!
+#15000
+b100010 $
+b100010 @
+18
+b1 .
+b1 ?
+17
+b11 ;
+1!
+#20000
+0!
+#25000
+b10 ;
+07
+b100010 +
+1!
+#30000
+0!
+#35000
+b11111000 $
+b11111000 @
+x5
+b0 ;
+08
+13
+b100010 .
+b100010 ?
+1!
+#40000
+0!
+#45000
+03
+b1 ;
+1!
+#50000
+0!
+#55000
+b11111111 $
+b11111111 @
+14
+b100011 .
+b100011 ?
+17
+b11 ;
+1!
+#60000
+0!
+#65000
+b10 ;
+07
+b11111111 +
+1!
+#70000
+0!
+#75000
+bx $
+bx @
+b0 ;
+04
+b11111110 9
+b11111110 A
+b100100 :
+b100100 B
+13
+b11111111 .
+b11111111 ?
+11
+1!
+#80000
+0!
+#85000
+03
+01
+b1 ;
+1!
+#90000
+0!
+#95000
+b10 ;
+1!
+#100000
+0!
+#105000
+b11110000 $
+b11110000 @
+b0 ;
+13
+b0 .
+b0 ?
+1!
+#110000
+0!
+#115000
+03
+b1 ;
+1!
+#120000
+0!
